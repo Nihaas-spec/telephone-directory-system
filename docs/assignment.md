@@ -1,124 +1,68 @@
-\# Assignment Specification — Mini Project 2 (MP2)
+# Mini Project 2 (MP2) — Assignment Specification
 
+**Course:** cc1022 — Object Oriented Programming  
+**Instructor:** Syed Farooq Ali  
+**Total Marks:** 200
 
+---
 
-\*\*Course:\*\* cc1022 — Object Oriented Programming  
+## Problem Statement
 
-\*\*Program:\*\* CS/SE, SST, UMT  
+Develop a telephone directory for UMT students using Object Oriented Programming in C++.
 
-\*\*Instructor:\*\* Syed Farooq Ali  
+File handling is **not** required. Use array or linked list.
 
-\*\*Total Marks:\*\* 200  
+---
 
-\*\*CLO3:\*\* Model a solution for a given problem using object-oriented principles
+## Menu Structure
 
+### Main Menu
 
+### Insert Menu
+- Enter ID, Name, Address, Phone
+- Check for duplicate ID
+- Press 1 to save, 0 to cancel
+- Ask to insert another record [y/n]
 
-\---
+### Update Menu
+- Search by ID or Name
+- Display current record
+- Confirm update [y/n]
+- Enter new information
+- Ask to update another record [y/n]
 
+### Delete Menu
+- Search by ID
+- Display current record
+- Confirm delete [y/n]
+- Ask to delete another record [y/n]
 
+### Search Menu
+- Search by ID or Name
+- Display record if found
+- Ask to search another record [y/n]
 
-\## Problem Statement
+### List Directory
+- Display all records with numbering
+- Show total count
+- Press 'm' to return to Main Menu
 
+---
 
+## Grading (200 Marks)
 
-A traditional telephone directory is a book listing the names, addresses, and telephone numbers of people in a particular area. The task is to develop a telephone directory for UMT students using the Object Oriented Programming paradigm in C++.
+| Component | Marks |
+|-----------|-------|
+| OOP Implementation | 50 |
+| Insert | 30 |
+| Update | 30 |
+| Delete | 30 |
+| Search | 20 |
+| List Directory | 20 |
+| Menu Navigation | 20 |
 
+---
 
+## Author
 
-File handling is \*\*not\*\* required — records are managed in memory using an array or linked list.
-
-
-
-\---
-
-
-
-\## Required Menu Structure
-
-
-
-\### Main Menu
-
-```
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-Telephone Directory: Main Menu
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-
-1\. Insert a new student
-
-2\. Update an existing student
-
-3\. Delete a record
-
-4\. Search for a student (using name or ID)
-
-5\. List directory
-
-Select Option \[1, 2, 3, 4 or 5]:
-
-```
-
-
-
-\### Insert Menu
-
-\- Prompt for ID, Name, Address, Phone Number
-
-\- If ID already exists: display error, do not insert
-
-\- Confirm save (1 = save, 0 = cancel)
-
-\- Ask to insert another record \[y/n]
-
-
-
-\### Update Menu
-
-\- Search by ID or Name
-
-\- Display current record
-
-\- Confirm update \[y/n]
-
-\- If yes, prompt for all new field values
-
-\- Ask to update another record \[y/n]
-
-
-
-\### Delete Menu
-
-\- Search by ID
-
-\- Display current record
-
-\- Confirm delete \[y/n]
-
-\- Ask to delete another record \[y/n]
-
-
-
-\### Search Menu
-
-\- Search by ID or Name
-
-\- Display record if found, appropriate message if not
-
-\- Ask to search another record \[y/n]
-
-
-
-\### List Directory
-
-\- Display all records with sequential numbering
-
-\- Show total record count
-
-\- Press 'm' to return to Main Menu
-
-
-
+**M. Nihaas Bhatti** (F2024266196)
