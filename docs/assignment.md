@@ -49,20 +49,6 @@ File handling is **not** required. Use array or linked list.
 
 ---
 
-## Grading (200 Marks)
-
-| Component | Marks |
-|-----------|-------|
-| OOP Implementation | 50 |
-| Insert | 30 |
-| Update | 30 |
-| Delete | 30 |
-| Search | 20 |
-| List Directory | 20 |
-| Menu Navigation | 20 |
-
----
-
 ## Author
 
 **M. Nihaas Bhatti** (F2024266196)
