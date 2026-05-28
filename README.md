@@ -23,7 +23,7 @@ A console-based telephone directory for UMT students, built using **Object Orien
 ## 🎬 Demo
 
 ### Telephone Directory: Main Menu
-
+```
 Insert a new student
 
 Update an existing student
@@ -34,7 +34,7 @@ Search for a student (by name or ID)
 
 List directory
 Select Option [1, 2, 3, 4 or 5]: 1
-
+```
 ### Telephone Directory: Insert Menu
 ```
 Enter ID: F2024266196
@@ -103,8 +103,8 @@ Directory — Manages the collection of Student objects. Encapsulates the intern
 
 ## Author
 ```
-Name	Student ID
-M. Nihaas Bhatti	F2024266196
+
+M.Nihaas Bhatti	F2024266196
 Instructor: Syed Farooq Ali — cc1022 OOP, SST, UMT
 ```
 
